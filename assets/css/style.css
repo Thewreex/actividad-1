@@ -1,0 +1,13 @@
+h1 {
+  background-color: blue;
+  color: black;
+  font-size: 32px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
