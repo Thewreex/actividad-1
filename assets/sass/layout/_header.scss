@@ -1,0 +1,23 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.header {
+    background-color: v.$color-secundario;
+    height: 80px;
+    padding: 0 20px;
+    @include m.flex(space-between, center);
+}
+
+.header__imagen {
+    width: 60px;
+}
+
+.header__lista {
+    @include m.flex;
+    list-style: none;
+    gap: 40px;
+
+    li {
+        font-size: 18px;
+    }
+}

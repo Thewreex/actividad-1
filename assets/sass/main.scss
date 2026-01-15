@@ -1,2 +1,7 @@
 @use "views/home";
-@use "base/reset"
+@use "base/reset";
+@use "components/alerts";
+@use "base/typography";
+@use "utilities/variables";
+@use "layout/header";
+@use "utilities/mixins"
