@@ -32,4 +32,22 @@ body {
   font-size: 18px;
 }
 
+.hero {
+  background-color: #22E3A9;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.hero__titulo {
+  color: #F0F0F0;
+}
+
+.hero__texto {
+  color: #F0F0F0;
+}
+
 /*# sourceMappingURL=style.css.map */

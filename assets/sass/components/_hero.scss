@@ -1,0 +1,18 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.hero {
+    background-color: v.$color-primario;
+    height: 475px;
+    @include m.flex(center, center);
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero__titulo {
+    color: v.$color-secundario;
+}
+
+.hero__texto {
+    color: v.$color-secundario;
+}
