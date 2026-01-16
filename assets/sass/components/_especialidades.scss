@@ -1,12 +1,19 @@
 @use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
 
 .especialidades {
-    height: 450px;
+    height: 575px;
     background-color: v.$color-secundario;
     width: 100%;
     padding: 30px;
+
+    section {
+        @include m.flex(space-around, center)
+
+    }
 }
 
 .especialidades__titulo {
     text-align: center;
+    margin-bottom: 40px;
 }

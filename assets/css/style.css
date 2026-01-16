@@ -66,14 +66,27 @@ body {
 }
 
 .especialidades {
-  height: 450px;
+  height: 575px;
   background-color: #F0F0F0;
   width: 100%;
   padding: 30px;
 }
+.especialidades section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .especialidades__titulo {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  height: 420px;
+  width: 275px;
+  border-radius: 30px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
