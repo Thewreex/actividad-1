@@ -39,15 +39,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 60px;
+  gap: 30px;
 }
 
 .hero__titulo {
   color: #F0F0F0;
+  font-size: 50px;
 }
 
 .hero__texto {
   color: #F0F0F0;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

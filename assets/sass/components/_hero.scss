@@ -6,13 +6,17 @@
     height: 475px;
     @include m.flex(center, center);
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
 }
 
 .hero__titulo {
     color: v.$color-secundario;
+    font-size: 50px;
 }
 
 .hero__texto {
     color: v.$color-secundario;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
