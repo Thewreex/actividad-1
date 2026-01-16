@@ -103,12 +103,23 @@ body, option, select {
 .agenda {
   height: auto;
   background-color: #22E3A9;
+  padding: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 .agenda section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.agenda__titulo {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .agenda__select {
@@ -118,6 +129,10 @@ body, option, select {
   border: none;
   border-radius: 40px;
   padding: 0 20px;
+}
+
+.boton--agenda {
+  width: 550px;
 }
 
 /*# sourceMappingURL=style.css.map */
