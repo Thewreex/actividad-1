@@ -54,4 +54,15 @@ body {
   margin-bottom: 10px;
 }
 
+.boton {
+  height: 60px;
+  width: 180px;
+  border: none;
+  border-radius: 25px;
+  color: #22E3A9;
+  background-color: #F0F0F0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
