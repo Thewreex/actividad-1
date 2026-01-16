@@ -135,4 +135,27 @@ body, option, select {
   width: 550px;
 }
 
+.footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.footer__links_texto {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
