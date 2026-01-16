@@ -1,12 +1,18 @@
+@use "../utilities/mixins" as m;
+
 .card {
     height: 420px;
     width: 275px;
+    padding: 15px;
+    gap: 15px;
     border-radius: 30px;
     background-color: white;
+    @include m.flex($align: center);
+    flex-direction: column;
 }
 
 .card__imagen {
-
+    width: 150px;
 }
 
 .card__titulo {

@@ -2,14 +2,14 @@
 @use "../utilities/mixins" as m;
 
 .especialidades {
-    height: 575px;
+    height: auto;
     background-color: v.$color-secundario;
     width: 100%;
     padding: 30px;
 
     section {
-        @include m.flex(space-around, center)
-
+        @include m.flex(space-around, center);
+        margin-bottom: 75px
     }
 }
 
