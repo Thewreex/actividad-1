@@ -1,0 +1,21 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.agenda {
+    height: auto;
+    background-color: v.$color-primario;
+
+    section {
+        @include m.flex(center, center);
+        flex-direction: column;
+    }
+}
+
+.agenda__select {
+    width: 550px;
+    margin-bottom: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    padding: 0 20px;
+}
