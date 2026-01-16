@@ -1,0 +1,12 @@
+@use "../utilities/variables" as v;
+
+.especialidades {
+    height: 450px;
+    background-color: v.$color-secundario;
+    width: 100%;
+    padding: 30px;
+}
+
+.especialidades__titulo {
+    text-align: center;
+}

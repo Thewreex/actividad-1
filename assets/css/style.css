@@ -65,4 +65,15 @@ body {
   font-weight: 600;
 }
 
+.especialidades {
+  height: 450px;
+  background-color: #F0F0F0;
+  width: 100%;
+  padding: 30px;
+}
+
+.especialidades__titulo {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
